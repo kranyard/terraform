@@ -5,7 +5,7 @@ variable "rg_name" {
 }
 
 variable "rg_location" {
-  default = "south india"
+  default = "west europe"
 }
 
 # endregion // resource group
