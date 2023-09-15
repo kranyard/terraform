@@ -28,6 +28,7 @@ resource "azurerm_kubernetes_cluster" "cluster" {
 }
 
 output "kube_config" {
+  sensitive = true
   value = azurerm_kubernetes_cluster.cluster.kube_config_raw
 }
 
